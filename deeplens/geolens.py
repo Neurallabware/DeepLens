@@ -105,6 +105,7 @@ class GeoLens(Lens):
         for surf in self.surfaces:
             surf.double()
 
+    # 
     def post_computation(self):
         """After loading lens, compute foclen, fov and fnum."""
         self.find_aperture()

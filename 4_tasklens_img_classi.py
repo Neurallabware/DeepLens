@@ -339,3 +339,6 @@ if __name__ == "__main__":
 
     # End-to-end lens-network co-design
     train(args, lens, net)
+
+    # 3.3 PSF (Point Spread Function) Analysis
+    robust_psf_radial(lens, M=2, depth=1000.0, log_scale=True, save_name="psf_radial.png")

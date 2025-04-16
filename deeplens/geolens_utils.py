@@ -97,7 +97,7 @@ def read_zmx(filename="./test.zmx"):
     geolens.d_sensor = torch.tensor(d)
     return geolens
 
-
+# so this can be used to do with zemax
 def write_zmx(geolens, filename="./test.zmx"):
     """Write the lens into .zmx file."""
     lens_zmx_str = ""
